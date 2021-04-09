@@ -1,0 +1,77 @@
+body {
+	font-family: 'Playfair Display', serif;
+	color: #333333;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+#main_header {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#logo {
+	float: left;
+}
+
+#nav_bar {
+	float: right;
+}
+
+#nav_bar ul {
+	padding: 0;
+	list-style: none;
+}
+
+#nav_bar li {
+	display: inline;
+}
+
+#nav_bar a {
+	color: #333333;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+.container {
+	display: block;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.blogs h2 {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.blogs h6 {
+	text-align: center;
+}
+
+.blogs a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.blogs h5 {
+	text-align: center;
+	border: 2px solid grey;
+}
+
+#main_footer {
+	background-color: #d4d4d3;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+#social_media a {
+	text-decoration: none;
+}
+
+#social_media h4 {
+	text-decoration: underline;
+}

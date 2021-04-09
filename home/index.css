@@ -1,0 +1,184 @@
+body {
+	font-family: 'Playfair Display', serif;
+	color: #333333;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+#main_header {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#logo {
+	float: left;
+}
+
+#nav_bar {
+	float: right;
+}
+
+#nav_bar ul {
+	padding: 0;
+	list-style: none;
+}
+
+#nav_bar li {
+	display: inline;
+}
+
+#nav_bar a {
+	color: #333333;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+.container {
+	display: block;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#main_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#main_text h4 {
+	font-size: 20px;
+}
+
+#main_text h2 {
+	font-size: 30px;
+}
+
+.content {
+	display: block;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#about_me h4 {
+	font-size: 18px;
+	text-align: center;
+}
+
+#profile_pic {
+	float: left;
+	width: 30%;
+}
+
+#profile_pic img {
+	max-width: 90%;
+	height: auto;
+}
+
+#introduction {
+	float: right;
+	width: 70%;
+}
+
+#short_profile h4 {
+	font-size: 18px;
+	text-align: center;
+}
+
+#skills h4 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.skill_box {
+	width: 100%;
+	background-color: #ddd;
+}
+
+.skills {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.cpp {
+	width: 80%;
+	background-color: #132504;
+	padding-right: 10px;
+}
+
+.c {
+	width: 60%;
+	background-color: #1f3613;
+	padding-right: 10px;
+}
+
+.python {
+	width: 50%;
+	background-color: #ce5f15;
+	padding-right: 10px;
+}
+
+.html {
+	width: 40%;
+	background-color: #704020;
+	padding-right: 10px;
+}
+
+.css {
+	width: 30%;
+	background-color: #682702;
+	padding-right: 10px;
+}
+
+#projects h4 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.project_box {
+	background-color: #767676;
+	border-top: 15px solid white;
+	border-bottom: 15px solid white;
+	padding: 1em;
+	color: white;
+}
+
+.project_box h2 {
+	font-size: 18px;
+}
+
+.project_box h3 {
+	font-size: 12px;
+}
+
+#favorites h4 {
+	font-size: 18px;
+	text-align: center;
+}
+
+#favorite_list {
+	text-align: center;
+}
+
+#main_footer {
+	background-color: #d4d4d3;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+#social_media a {
+	text-decoration: none;
+}
+
+#social_media h4 {
+	text-decoration: underline;
+}
